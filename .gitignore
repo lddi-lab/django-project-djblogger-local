@@ -1,3 +1,7 @@
  venv/
  db.sqlite3
- .env
+ htmlcov/
+ .coverage
+ *.md
+.pytest_cache/
+__pycache__/
