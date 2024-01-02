@@ -47,7 +47,7 @@ ROOT_URLCONF = "djblogger.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR), "templates"],
+        "DIRS": [os.path.join(BASE_DIR), "djblogger/templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -114,3 +114,5 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+STATICFILES_DIRS = [BASE_DIR / "static"]
