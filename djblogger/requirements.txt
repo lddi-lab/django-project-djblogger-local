@@ -3,6 +3,7 @@ colorama==0.4.6
 coverage==7.4.0
 Django==5.0
 django-dotenv==1.4.2
+django-htmx==1.17.2
 factory-boy==3.3.0
 Faker==22.0.0
 inflection==0.5.1
