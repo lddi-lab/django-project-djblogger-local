@@ -6,6 +6,10 @@
 
 {% block content-mid %}
 
+{% for post in posts %}
+<div>{{post.title}}</div>
+{% endfor %}
+
 {% endblock %}
 
 {% block content-right %}
@@ -14,3 +18,4 @@
 {% endblock %}
 
 
+ 
