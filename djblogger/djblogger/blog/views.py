@@ -53,4 +53,6 @@ class PostSearchView(ListView):
         return []
 
     def get_template_names(self):
+        if self.request.htmx:
+            return "blog/components/post-list-elements-search.html"
         return "blog/search.html"
